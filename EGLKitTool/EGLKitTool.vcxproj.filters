@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="glinterface">
+      <UniqueIdentifier>{dc5ba681-8a73-45be-8b21-b4043a16731a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glinterface\EGLKitTool.cpp">
+      <Filter>glinterface</Filter>
+    </ClCompile>
+    <ClCompile Include="glinterface\ELoadShader.cpp">
+      <Filter>glinterface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glinterface\EGLKitTool.h">
+      <Filter>glinterface</Filter>
+    </ClInclude>
+    <ClInclude Include="glinterface\eglkittool_global.h">
+      <Filter>glinterface</Filter>
+    </ClInclude>
+    <ClInclude Include="glinterface\ELoadShader.h">
+      <Filter>glinterface</Filter>
+    </ClInclude>
+    <ClInclude Include="glinterface\vmath.h">
+      <Filter>glinterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
